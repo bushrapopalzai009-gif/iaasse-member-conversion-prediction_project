@@ -1,0 +1,19 @@
+Feature,Type,Description,Role
+member_id,String,Unique member identifier,ID — exclude
+age,Integer,Member age in years,Feature
+country,Categorical,Country of residence,Feature
+job_title,Categorical,Job title / role,Feature
+days_since_signup,Integer,Days since registration,Feature
+login_frequency_30d,Integer,Platform logins in first 30 days,Feature
+resources_downloaded,Integer,Resources downloaded in first 30 days,Feature
+webinars_attended,Integer,Webinars attended in first 30 days,Feature
+forum_posts,Integer,Forum posts in first 30 days,Feature
+profile_completion_pct,Float,Profile completion percentage (0–100),Feature
+events_registered,Integer,Events registered for,Feature
+events_attended,Integer,Events actually attended,Feature
+newsletter_opens,Integer,Newsletter emails opened,Feature
+avg_session_duration_min,Float,Average session duration in minutes,Feature
+support_tickets_raised,Integer,Support tickets raised,Feature
+emails_to_support,Integer,Emails sent to support,Feature
+referral_count,Integer,Members referred,Feature
+converted,Binary,Converted to paid within 90 days (TARGET),TARGET
